@@ -1,0 +1,30 @@
+{
+    "name": "choose/page_speed_api",
+    "description": "Package for easy using PageSpeed Insights API",
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "PageSpeedApi\\": "src/",
+            "PageSpeedApi\\PageSpeed\\": "src/Classes/PageSpeed/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Choose"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/choose/"
+        }
+    }
+}
